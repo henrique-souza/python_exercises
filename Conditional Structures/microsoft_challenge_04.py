@@ -1,4 +1,7 @@
-'''
+# Remova estes primeiros apóstofos e coloque-os ANTES dos "# programa X"
+# e execute as linhas que deseja testar
+
+''' 
 #programa 01
 
 #testando a função type(), que expressa que tipo de dados estou trabalhando
