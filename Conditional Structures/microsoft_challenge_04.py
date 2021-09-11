@@ -1,5 +1,5 @@
-# Remova estes primeiros apóstofos e coloque-os ANTES dos "# programa X"
-# e execute as linhas que deseja testar
+# Remova estes primeiros apóstofos e coloque-os ANTES/ACIMA dos
+# comentários "# programa X" e execute as linhas que deseja testar
 
 ''' 
 #programa 01
@@ -17,7 +17,7 @@ print(type('False')) #imprime str
 
 #programa 02
 
-#agora irei testar a função bool()
+#agora irei testar a função bool(), irá imprimir se os valores setados são True ou False
 
 print(bool('True'))
 print(bool('False'))
@@ -39,14 +39,31 @@ print(1 + 1 == 2) #vai imprimir um True
 
 #programa 05
 
+#vai imprimir quais operações são False ou True
 print(3 == 4)
 print(3 != 4)
 print(3 > 4)
 print(3 < 4)
 print(3 >= 4)
 print(3 <= 4)
-
 '''
 #programa 06
 
+primeiro_numero = 5
+segundo_numero = 0
+valor_true = True
+valor_false = False
 
+if primeiro_numero > 1 and primeiro_numero < 10:
+    print('O valor está entre 1 e 10.')
+
+if primeiro_numero > 1 or segundo_numero > 1:
+    print('Pelo menos um dos valores digitados é maior que 1')
+
+print(not valor_true)
+print(not valor_false)
+
+if not primeiro_numero > 1 and segundo_numero < 10:
+    print('Ambos valores passaram no teste.')
+else:
+    print('Ambos valores NÃO passaram no teste.')
