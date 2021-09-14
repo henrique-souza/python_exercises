@@ -25,7 +25,7 @@ print(setima_string)
 print(oitava_string)
 
 #programa 04
-https://www.onlinegdb.com/#tab-stdin
+
 nona_string = r"Uma sequência literal com uma \n nova linha impressa crua"
 print(nona_string)
 
