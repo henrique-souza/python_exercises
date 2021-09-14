@@ -1,22 +1,30 @@
-#caso queira executar os programas separadamente, 
-# use três citaçções simples ''' na linha inicial e final ''' 
-# de cada "# programa x"
+# caso queira testar os programas separadamente, adicione
+# comentários de apóstofos simples ''' e ''' ENTRE um programa e outro.
+#Exemplo abaixo:
+'''
 
-#programa 01
+print('Programa X')
+código
+
+'''
+
+print('Programa 01\n')
 
 primeira_string = 'Uma string literal'
 segunda_string = "Uma string literal"
 print(segunda_string == primeira_string) #irá imprimir um boolean: True
+print ('\n')
 
-#programa 02
+print('Programa 02\n')
 
 terceira_string = ('Uma única sequência literal citada com uma " citação dupla')
 quarta_string = ("Duas sequências literais citadas com ' uma única citação")
 print ('\n')
 print(terceira_string)
 print(quarta_string)
+print ('\n')
 
-#programa 03
+print('Programa 03\n')
 
 quinta_string = ('Uma sequência literal citada com uma \' unica citação escapada')
 sexta_string = ("Uma sequência literal citada com uma \" citação dupla")
@@ -27,15 +35,17 @@ print(quinta_string)
 print(sexta_string)
 print(setima_string)
 print(oitava_string)
+print ('\n')
 
-#programa 04
+print('Programa 04\n')
 
 nona_string = r"Uma sequência literal com uma \n nova linha impressa crua"
 print ('\n')
 print(nona_string)
+print ('\n')
 
 
-#programa 05
+print('Programa 05\n')
 
 
 decima_string = '''Uma sequência literal
@@ -51,9 +61,9 @@ print ('\n')
 print(decima_string)
 print ('\n')
 print(decimaPrimeira_string)
+print ('\n')
 
-
-#programa 06
+print('Programa 06\n')
 
 primeiroNome = 'Conrad'
 segundoNome = 'Grant'
