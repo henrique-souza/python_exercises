@@ -7,7 +7,6 @@ print('Programa X')
 código
 
 '''
-#parei na unidade 4, usos de 'format()'
 
 print('Programa 01\n')
 
