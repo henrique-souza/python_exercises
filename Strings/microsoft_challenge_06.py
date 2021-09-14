@@ -29,12 +29,15 @@ print(oitava_string)
 nona_string = r"Uma sequência literal com uma \n nova linha impressa crua"
 print(nona_string)
 
-'''
+
 #programa 05
 
-decima_string = '''Uma sequência literal
+
+decima_string = ''' '''Uma sequência literal
 em mais de uma linha
-às vezes conhecida como cadeia de caracteres verbatim'''
+às vezes conhecida como cadeia de caracteres verbatim''' '''
+# antes de executar a linha acima, favor remover três citações que estão
+# transoformando o dado da variável num comentário
 decimaPrimeira_string = """Outra sequência literal
     em mais de uma linha
 usando citação dupla"""
@@ -42,3 +45,7 @@ usando citação dupla"""
 print(decima_string)
 print ('\n')
 print(decimaPrimeira_string)
+
+'''
+#programa 06
+
