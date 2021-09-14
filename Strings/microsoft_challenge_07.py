@@ -8,7 +8,6 @@ código
 
 '''
 
-''' #excluir estes apóstofos ao terminar os exercicios
 
 print('Programa 01\n')
 
@@ -81,12 +80,20 @@ print('.' + mensagem5.rstrip() + '.') #faz com que espaços da direita sejam ign
 print('.' + mensagem5.strip() + '.') #faz com que todos espaços sejam ignorados
 print('\n')
 
-'''
-
 print('Programa 08\n')
 
 mensagem6 = 'Brevidade é a essência da sagacidade'
 mensagem6 = mensagem6.replace('essência', 'alma')
 #método replace() subistutui palavras de uma cadeia de caracteres
 print(mensagem6)
+print('\n')
+
+
+print('Programa 09\n')
+
+mensagem7 = 'Henrique'
+print(mensagem7.rjust(20))
+print(mensagem7.rjust(20, '-'))
+print(mensagem7.ljust(20))
+print(mensagem7.ljust(20, '-'))
 print('\n')
