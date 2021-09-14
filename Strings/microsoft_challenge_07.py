@@ -56,6 +56,19 @@ print(mensagem3.endswith('ar')) #estes comandos irão retornar se
 # a informação passada no parametro é True ou False
 print('\n')
 
-'''
-
 print('Programa 06\n')
+
+mensagem4 = 'A raposa marrom, que é rápida, pula sobre o cão preguiçoso'
+
+print(mensagem4.find('o')) 
+# método find() informa a localização da cadeia de caracteres
+# por exemplo, ele acha o primeiro 'o' e imprime a localização
+# do mesmo, dentro da cadeia de caracteres, sendo A posicionado em 0,
+# a letra 'o' seria posição 5
+print(mensagem4.find('a'))
+print(mensagem4.find('A'))
+print(mensagem4.find('ã'))
+print(mensagem4.find(','))
+print('\n')
+
+'''
