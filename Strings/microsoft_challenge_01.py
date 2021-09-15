@@ -50,7 +50,6 @@ print('\n')
 
 print('Programa 05\n')
 
-
 decima_string = '''Uma sequência literal
 em mais de uma linha
 às vezes conhecida como cadeia de caracteres verbatim'''
@@ -60,7 +59,6 @@ em mais de uma linha
 decimaPrimeira_string = """Outra sequência literal
     em mais de uma linha
 usando citação dupla"""
-print('\n')
 print(decima_string)
 print('\n')
 print(decimaPrimeira_string)
@@ -71,7 +69,6 @@ print('Programa 06\n')
 primeiroNome = 'Conrad'
 segundoNome = 'Grant'
 terceiroNome = 'Bob'
-print('\n')
 print(primeiroNome, segundoNome)
 print(primeiroNome, segundoNome, terceiroNome)
 print(primeiroNome, segundoNome, terceiroNome, sep='-')
