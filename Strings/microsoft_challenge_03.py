@@ -39,3 +39,5 @@ valor = 3.14
 mensagem = f'Contagem até {contagem}. Multiplique por {valor}.'
 print(mensagem)
 print('\n')
+
+#parei na etapa 4, eh nós
