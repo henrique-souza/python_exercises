@@ -1,6 +1,6 @@
 # caso queira testar os programas separadamente, adicione
 # comentários de apóstofos simples ''' e ''' ENTRE um programa e outro.
-#Exemplo abaixo:
+# Exemplo abaixo:
 '''
 
 print('Programa X')
@@ -18,7 +18,7 @@ elif valor < '7':
     print('O valor é menor que 7')
 else:
     print('O valor é maior que 8.')
-    
+
 print('Finalizado!')
 print('\n')
 
@@ -30,5 +30,3 @@ segundo_valor = '6'
 if primeiro_valor:
     if segundo_valor == '6':
         print('Cheguei aqui!')
-
-

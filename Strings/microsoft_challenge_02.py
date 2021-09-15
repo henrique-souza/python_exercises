@@ -1,6 +1,6 @@
 # caso queira testar os programas separadamente, adicione
 # comentários de apóstofos simples ''' e ''' ENTRE um programa e outro.
-#Exemplo abaixo:
+# Exemplo abaixo:
 '''
 
 print('Programa X')
@@ -53,7 +53,7 @@ print(mensagem3.startswith('ra'))
 
 print(mensagem3.endswith('r'))
 print(mensagem3.endswith('a'))
-print(mensagem3.endswith('ar')) #estes comandos irão retornar se 
+print(mensagem3.endswith('ar'))  # estes comandos irão retornar se
 # a informação passada no parametro é True ou False
 print('\n')
 
@@ -61,7 +61,7 @@ print('Programa 06\n')
 
 mensagem4 = 'A raposa marrom, que é rápida, pula sobre o cão preguiçoso'
 
-print(mensagem4.find('o')) 
+print(mensagem4.find('o'))
 # método find() informa a localização da cadeia de caracteres
 # por exemplo, ele acha o primeiro 'o' e imprime a localização
 # do mesmo, dentro da cadeia de caracteres, sendo A posicionado em 0,
@@ -75,16 +75,19 @@ print('\n')
 print('Programa 07\n')
 
 mensagem5 = '     meio     '
-print('.' + mensagem5.lstrip() + '.') #faz com que espaços da esquerda sejam ignorados
-print('.' + mensagem5.rstrip() + '.') #faz com que espaços da direita sejam ignorados
-print('.' + mensagem5.strip() + '.') #faz com que todos espaços sejam ignorados
+# faz com que espaços da esquerda sejam ignorados
+print('.' + mensagem5.lstrip() + '.')
+# faz com que espaços da direita sejam ignorados
+print('.' + mensagem5.rstrip() + '.')
+# faz com que todos espaços sejam ignorados
+print('.' + mensagem5.strip() + '.')
 print('\n')
 
 print('Programa 08\n')
 
 mensagem6 = 'Brevidade é a essência da sagacidade'
 mensagem6 = mensagem6.replace('essência', 'alma')
-#método replace() subistutui palavras de uma cadeia de caracteres
+# método replace() subistutui palavras de uma cadeia de caracteres
 print(mensagem6)
 print('\n')
 
