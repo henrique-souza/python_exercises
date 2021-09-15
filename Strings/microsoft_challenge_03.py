@@ -7,7 +7,7 @@ print('Programa X')
 código
 
 '''
-
+'''
 print('Programa 01\n')
 
 remedio = 'Dorflex'
@@ -25,4 +25,17 @@ print(instrucoes)
 instrucoes = '{remedio} - Tome {dosagem} ML pela boca a cada {duracao} horas'.format(
     remedio='Dipirona', dosagem=10, duracao=6)
 print(instrucoes)
+print('\n')
+'''
+
+print('Programa 02\n')
+
+nome = 'mundo'
+mensagem = f'Olá, {nome}.'
+print(mensagem)
+
+contagem = 10
+valor = 3.14
+mensagem = f'Contagem até {contagem}. Multiplique por {valor}.'
+print(mensagem)
 print('\n')
