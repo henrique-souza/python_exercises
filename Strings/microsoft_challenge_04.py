@@ -59,6 +59,7 @@ fourth#fifth#sixth!
 
 '''
 Soluções sugeridas pela microsoft: 
+
 # First challenge
 first_value = first_value.strip()
 first_value = first_value.lower()
