@@ -40,9 +40,9 @@ print(mensagem)
 print('\n')
 
 print('Programa 03\n')
+
 width = 5
 height = 10
-
 print(
     f'O perímetro é {(2 * width) + (2 * height)} e a área é {width * height}.')
 print('\n')
