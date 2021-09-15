@@ -26,7 +26,6 @@ instrucoes = '{remedio} - Tome {dosagem} ML pela boca a cada {duracao} horas'.fo
     remedio='Dipirona', dosagem=10, duracao=6)
 print(instrucoes)
 print('\n')
-'''
 
 print('Programa 02\n')
 
@@ -39,5 +38,11 @@ valor = 3.14
 mensagem = f'Contagem até {contagem}. Multiplique por {valor}.'
 print(mensagem)
 print('\n')
+'''
+print('Programa 03\n')
+width = 5
+height = 10
 
-#parei na etapa 4, eh nós
+print(
+    f'O perímetro é {(2 * width) + (2 * height)} e a área é {width * height}.')
+print('\n')
