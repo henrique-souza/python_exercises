@@ -7,7 +7,7 @@ print('Programa X')
 código
 
 '''
-'''
+
 print('Programa 01\n')
 
 remedio = 'Dorflex'
@@ -38,11 +38,22 @@ valor = 3.14
 mensagem = f'Contagem até {contagem}. Multiplique por {valor}.'
 print(mensagem)
 print('\n')
-'''
+
 print('Programa 03\n')
 width = 5
 height = 10
 
 print(
     f'O perímetro é {(2 * width) + (2 * height)} e a área é {width * height}.')
+print('\n')
+
+
+print('Programa 04\n')
+
+valor = 'Olá'
+
+print(f'.{valor:<50}.')
+print(f'.{valor:>50}.')
+print(f'.{valor:^50}.')
+print(f'.{valor:_^50}.')
 print('\n')
