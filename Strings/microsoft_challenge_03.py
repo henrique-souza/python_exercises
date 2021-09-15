@@ -10,5 +10,19 @@ código
 
 print('Programa 01\n')
 
+remedio = 'Dorflex'
+dosagem = 5
+duracao = 4.5
 
+instrucoes = '{} - Tome {} ML pela boca a cada {} horas'.format(
+    remedio, dosagem, duracao)
+print(instrucoes)
+
+instrucoes = '{2} - Tome {1} ML pela boca a cada {0} horas'.format(
+    remedio, dosagem, duracao)
+print(instrucoes)
+
+instrucoes = '{remedio} - Tome {dosagem} ML pela boca a cada {duracao} horas'.format(
+    remedio='Dipirona', dosagem=10, duracao=6)
+print(instrucoes)
 print('\n')
