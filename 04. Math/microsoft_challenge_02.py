@@ -32,4 +32,3 @@ segundo_valor = int(segundo_valor)
 
 soma = primeiro_valor + segundo_valor
 print('Soma dos valores: ' + str(soma))
-print('\n')
