@@ -3,11 +3,13 @@
 # Exemplo abaixo:
 
 '''
-print('Programa X')
+print('Programa X\n')
 código
 
 '''
 '''
+print('Programa 01\n')
+
 first_value = 5
 second_value = 4
 
@@ -24,11 +26,23 @@ print('Product: ' + str(product))
 print('Quotient: ' + str(quotient))
 print('Modulus: ' + str(modulus))
 print('Exponent: ' + str(exponent))
+print('\n')
 
+print('Programa 02\n')
 # testando acrônimo PEMDAS, que indica a ordem que
 # as operações em Python são realizadas
 
 print(3 + 4 * 5)
 print((3 + 4) * 5)
 '''
+
+print('Programa 03\n')
+
+first_value = 5
+second_value = 4
+
+quotient = first_value / second_value
+
+print(type(quotient))
+print(quotient)
 
