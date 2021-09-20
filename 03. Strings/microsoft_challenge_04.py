@@ -58,7 +58,8 @@ fourth#fifth#sixth!
 '''
 
 '''
-Soluções sugeridas pela microsoft: 
+PT - Soluções sugeridas pela Microsoft: 
+EN - Soluctions proposed by Microsoft:
 
 # First challenge
 first_value = first_value.strip()
