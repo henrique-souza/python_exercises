@@ -7,7 +7,7 @@ print('Programa X')
 código
 
 '''
-
+'''
 first_value = 5
 second_value = 4
 
@@ -24,3 +24,5 @@ print('Product: ' + str(product))
 print('Quotient: ' + str(quotient))
 print('Modulus: ' + str(modulus))
 print('Exponent: ' + str(exponent))
+'''
+
