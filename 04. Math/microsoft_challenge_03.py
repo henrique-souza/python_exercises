@@ -24,5 +24,11 @@ print('Product: ' + str(product))
 print('Quotient: ' + str(quotient))
 print('Modulus: ' + str(modulus))
 print('Exponent: ' + str(exponent))
+
+# testando acrônimo PEMDAS, que indica a ordem que
+# as operações em Python são realizadas
+
+print(3 + 4 * 5)
+print((3 + 4) * 5)
 '''
 
