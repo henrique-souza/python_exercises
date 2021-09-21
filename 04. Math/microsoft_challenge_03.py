@@ -5,6 +5,7 @@
 '''
 print('Programa X\n')
 código
+print('\n')
 
 '''
 '''
@@ -47,7 +48,7 @@ print(type(quotient))
 print(quotient)
 print('\n')
 
-'''
+
 print('Programa 04\n')
 
 pi = 3.14
@@ -57,7 +58,11 @@ print(round(pi))
 
 uptime = 99.99
 print(type(uptime))
-print(int(uptime)) #irá sair um numero 99
-print(round(uptime)) #irá arredondar o float para um
+print(int(uptime)) # irá sair um numero 99
+print(round(uptime)) # irá arredondar o float para um
 print('\n')
+'''
+print('Programa 05\n')
 
+first_value = round()
+print('\n')
