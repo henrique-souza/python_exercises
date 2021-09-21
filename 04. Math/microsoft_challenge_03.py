@@ -34,7 +34,7 @@ print('Programa 02\n')
 
 print(3 + 4 * 5)
 print((3 + 4) * 5)
-'''
+print('\n')
 
 print('Programa 03\n')
 
@@ -45,4 +45,19 @@ quotient = first_value / second_value
 
 print(type(quotient))
 print(quotient)
+print('\n')
+
+'''
+print('Programa 04\n')
+
+pi = 3.14
+print(type(pi))
+print(int(pi))
+print(round(pi))
+
+uptime = 99.99
+print(type(uptime))
+print(int(uptime)) #irá sair um numero 99
+print(round(uptime)) #irá arredondar o float para um
+print('\n')
 
