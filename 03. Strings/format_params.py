@@ -1,13 +1,3 @@
-# caso queira testar os programas separadamente, adicione
-# comentários de apóstofos simples ''' e ''' ENTRE um programa e outro.
-# Exemplo abaixo:
-'''
-
-print('Programa X')
-código
-
-'''
-
 first_value = '  FIRST challenge         '
 second_value = '-  second challenge  -'
 third_value = 'tH IR D-C HALLE NGE'
