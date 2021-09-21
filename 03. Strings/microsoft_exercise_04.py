@@ -46,6 +46,7 @@ print(f'{fourth_value:^22}\n'
 f'{fifth_value:^22}\n'
 f'{sixth_value:^22}')
 
+
 ''' Resultados que o desafio está pedindo abaixo: 
 
        First Challenge        
@@ -56,6 +57,7 @@ fourth#fifth#sixth!
         fifth
         sixth
 '''
+
 
 '''
 PT - Soluções sugeridas pela Microsoft: 
