@@ -30,7 +30,8 @@ print('Exponent: ' + str(exponent))
 print('\n')
 
 print('Programa 02\n')
-# testando acrônimo PEMDAS, que indica a ordem que
+# testando acrônimo PEMDAS (Parenteses, Expoentes, Multiplicação
+# Divisão, Adição, Subtração), que indica a ordem que
 # as operações em Python são realizadas
 
 print(3 + 4 * 5)
@@ -47,7 +48,6 @@ quotient = first_value / second_value
 print(type(quotient))
 print(quotient)
 print('\n')
-
 
 print('Programa 04\n')
 
@@ -70,3 +70,4 @@ print(first_value)
 second_value = round(9.87654, 3) # fazendo sair com 3 casas decimais
 print(second_value)
 print('\n')
+
