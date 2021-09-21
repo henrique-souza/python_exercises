@@ -59,7 +59,7 @@ print(round(pi))
 uptime = 99.99
 print(type(uptime))
 print(int(uptime)) # irá sair um numero 99
-print(round(uptime)) # irá arredondar o float para um
+print(round(uptime)) # irá arredondar o float para um 100
 print('\n')
 
 print('Programa 05\n')
