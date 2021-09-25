@@ -1,18 +1,16 @@
-'''print('Simple calculator!')
+print('Simple calculator!')
 
-first_number = input('First number? ')
+first_number = int(input('First number? '))
 
 operation = input('Operation? ')
 
-second_number = input('Second number? ')
+second_number = int(input('Second number? '))
 
-if operation == 'p':
-    
-    product = f'{first_number}, {second_number}, {first_number * second_number}'
-    
+if operation == '*':
+
+    product = f'\nProduct of {first_number} * {second_number} equals {first_number * second_number}'
     print(product)
-    
     exit()
 
 
-print('\n')'''
+print('\n')
