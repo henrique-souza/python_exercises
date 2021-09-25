@@ -1,11 +1,21 @@
 print('Simple calculator!')
 
-first_number = int(input('First number? '))
+first_number = input('First number? ')
 
 operation = input('Operation? ')
 
-second_number = int(input('Second number? '))
+second_number = input('Second number? ')
 
+if first_number.isnumeric() == False or second_number.isnumeric() == False:
+    print('\nPlease input a number.')
+    exit()
+
+first_number = int(first_number)
+second_number = int(second_number)
+
+'''if operation.isinstance() == False:
+    print('Operation not recognized.')
+    exit()'''
 
 if operation == '*':
 
