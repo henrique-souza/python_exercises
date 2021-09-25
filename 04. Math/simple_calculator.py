@@ -22,6 +22,26 @@ if operation == '*':
     product = f'\nProduct of {first_number} * {second_number} equals {first_number * second_number}'
     print(product)
 
+elif operation == '-':
+    difference = f'\nDifference of {first_number} - {second_number} equals {first_number - second_number}'
+    print(difference)
+
+elif operation == '+':
+    sum = f'\nSum of {first_number} + {second_number} equals {first_number + second_number}'
+    print(sum)
+
+elif operation == '/':
+    quotient = f'\nQuotient of {first_number} / {second_number} equals {first_number / second_number}'
+    print(quotient)
+
+elif operation == '%':
+    modulus = f'\nModulus of {first_number} and {second_number} equals {first_number % second_number}'
+    print(modulus)
+
+elif operation == '**':
+    exponent = f'\nExponent of {first_number} and {second_number} equals {first_number ** second_number}'
+    print(exponent)
+
     exit()
 
 print('\n')
