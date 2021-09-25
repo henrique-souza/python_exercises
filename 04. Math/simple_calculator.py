@@ -21,7 +21,7 @@ if operation == '*':
 
     product = f'\nProduct of {first_number} * {second_number} equals {first_number * second_number}'
     print(product)
-    exit()
 
+    exit()
 
 print('\n')
