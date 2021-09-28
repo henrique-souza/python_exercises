@@ -1,4 +1,4 @@
-import random  # dar uma lida melhor quando chegar em casa
+import random
 
 roll = 0
 count = 0
