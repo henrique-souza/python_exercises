@@ -37,7 +37,7 @@ f'{fifth_value:^22}\n'
 f'{sixth_value:^22}')
 
 
-''' Resultados que o desafio está pedindo abaixo: 
+''' Resultados que o código acima imprime: 
 
        First Challenge        
 Second challenge
