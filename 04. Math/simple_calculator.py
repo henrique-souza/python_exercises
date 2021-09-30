@@ -4,7 +4,8 @@ first_number = input('First number? ')
 
 operation = input('Operation? ')
 
-if not operation.isalnum() == False: # infelzimente essa função não consegue ler espaços em branco, e fecha o programa depois do segundo número
+if not operation.isalnum() == False: 
+    # infelzimente essa função não consegue ler espaços em branco, e fecha o programa depois do segundo número
     print('Operation not recognized.')
     exit()
 
