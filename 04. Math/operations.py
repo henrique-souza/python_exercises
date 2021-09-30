@@ -58,16 +58,20 @@ print(round(pi))
 
 uptime = 99.99
 print(type(uptime))
-print(int(uptime)) # irá sair um numero 99
-print(round(uptime)) # irá arredondar o float para um 100
+print(int(uptime))
+# irá sair um numero 99
+print(round(uptime))
+# irá arredondar o float para um 100
 print('\n')
 
 print('Programa 05\n')
 
-first_value = round(7.654321, 2) # fazendo arredondamento sair com 2 casas decimais
+first_value = round(7.654321, 2)
+# fazendo arredondamento sair com 2 casas decimais
 print(first_value)
 
-second_value = round(9.87654, 3) # fazendo sair com 3 casas decimais
+second_value = round(9.87654, 3)
+# fazendo sair com 3 casas decimais
 print(second_value)
 print('\n')
 
