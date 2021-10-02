@@ -3,7 +3,7 @@ import random
 roll = 0
 count = 0
 
-# iniciando o laço 'roll' enquanto os dados forem diferentes de 5
+# iniciando o laço enquanto o valor da variável 'roll' forem diferentes de 5
 while roll != 5:
     # joga na tela os números de 1 a 5, até que apareça 5
     print(f'\nSorteio {count + 1}')
