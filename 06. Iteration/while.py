@@ -3,7 +3,7 @@ import random
 roll = 0
 count = 0
 
-# iniciando o laço enquanto o valor da variável 'roll' forem diferentes de 5
+# iniciando o laço enquanto o valor da variável 'roll' for diferente de 5
 while roll != 5:
     # se a variavel 'count' começa com 0, a partir deste print começara com 1
     # contando assim a quantidade de sorteios corretamente
