@@ -23,5 +23,6 @@ while roll != 5:
     # printa o resultado randomico de 'roll' até que apareça 5
     print(f'{name} sorteou: {roll}')
 else:
+    print('\n')
     print(f'{name} Ganhou!!!')
 print(f'\nO jogo sorteou {count} números!')
