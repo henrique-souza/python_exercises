@@ -33,4 +33,3 @@ else:
     print('\n')
     print(f'{name} Ganhou!!!')
 print(f'\nO jogo sorteou {count} números!')
-# parei na Unidade 3
