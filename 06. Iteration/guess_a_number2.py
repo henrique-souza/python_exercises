@@ -7,28 +7,28 @@
 
 import random
 
-numbers = random.randint(1, 10)
-choice = 0
+randomic_value = random.randint(1, 10)
+user_choice = 0
 count = 0
 
 print('Jogo de adivinhação!\n\nAdivinhe um número entre 1 e 10')
 
-# enquanto a escolha do usuário (choice) for diferente do número sorteado (numbers)
+# enquanto a escolha do usuário (user_choice) for diferente do número sorteado (randomic_value)
 # o laço while: será chamado
-while choice != numbers:
+while user_choice != randomic_value:
 
     print('\n')
     # o comando faz a contagem de tentativas do usuário
     count += 1
 
     # entrada dos dados pelo usuário
-    choice = input(f'Tentativa #{count}: ')
+    user_choice = input(f'Tentativa #{count}: ')
 
-    if choice.isnumeric():
+    if user_choice.isnumeric():
 
         # este comando faz com que as entradas do usuário sejam
         # convertidas em int()
-        choice = int(choice)
+        user_choice = int(user_choice)
 
     # este laço faz com que, mesmo que o usuário digite Enter, nomes ou símbolos
     # o jogo continua sendo executado, sem mensagens de erro.
@@ -37,18 +37,18 @@ while choice != numbers:
         continue
 
     # se a escolha do usuário for maior que o número sorteado
-    if choice > numbers:
+    if user_choice > randomic_value:
 
         # irá impimir esta mensagem na tela.
         print('Sua adivinhação é muito alta, tente novamente.')
 
     # se a escolha do usuário for menor que o número sorteado
-    if choice < numbers:
+    if user_choice < randomic_value:
 
         # irá imprimir esta mensagem na tela.
         print('Sua adivinhação é muito baixa, tente novamente!')
 
-# se o usuário adivinhar o número que foi armazenado em (numbers) na jogatina
+# se o usuário adivinhar o número que foi armazenado em (randomic_value) na jogatina
 else:
 
     # a mensagem abaixo será posta na tela.
@@ -75,7 +75,7 @@ while guess != value:
     if guess.isnumeric():
         guess = int(guess)
     else:
-        print('Numbers only, please!')
+        print('randomic_value only, please!')
         continue
 
     if guess > value:
