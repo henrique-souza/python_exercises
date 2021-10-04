@@ -30,7 +30,7 @@ else:
     print(f'\nVocê adivinhou em o número {count} tentativas.')
 
 '''
-# Solução Microsoft abaixo:
+# Solução - Microsoft abaixo:
 
 # Irei corrigir o programa acima
 
