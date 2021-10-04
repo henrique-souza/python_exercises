@@ -25,6 +25,8 @@ while numbers != 5:
     if choice.strip() == 'exit' or choice.strip() == 'sair':
         break
 
+    # existe algum bug com a função random()
+    # está randomizando além de 1 a 5
     numbers = random.randint(1, 5)
 
 print(f'\nVocê adivinhou em o número {count} tentativas.')
