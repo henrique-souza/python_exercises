@@ -9,7 +9,7 @@ import random
 
 randomic_value = random.randint(1, 10)
 user_choice = 0
-count = 0
+tentative_count = 0
 
 print('Jogo de adivinhação!\n\nAdivinhe um número entre 1 e 10')
 
@@ -19,10 +19,10 @@ while user_choice != randomic_value:
 
     print('\n')
     # o comando faz a contagem de tentativas do usuário
-    count += 1
+    tentative_count += 1
 
     # entrada dos dados pelo usuário
-    user_choice = input(f'Tentativa #{count}: ')
+    user_choice = input(f'Tentativa #{tentative_count}: ')
 
     if user_choice.isnumeric():
 
@@ -52,7 +52,7 @@ while user_choice != randomic_value:
 else:
 
     # a mensagem abaixo será posta na tela.
-    print(f'\nVocê adivinhou o número em {count} tentativas.')
+    print(f'\nVocê adivinhou o número em {tentative_count} tentativas.')
 
     
 # Jogo da adivinhação fazendo o que se pede, veremos abaixo o que a Microsoft
@@ -64,13 +64,13 @@ Solução - Microsoft
 import random
 
 value = random.randint(1, 10)
-count = 0
+tentative_count = 0
 guess = 0
 print('Guess a number between 1 and 10')
 
 while guess != value:
-    count += 1
-    guess = input(f'Enter guess #{count}: ')
+    tentative_count += 1
+    guess = input(f'Enter guess #{tentative_count}: ')
 
     if guess.isnumeric():
         guess = int(guess)
@@ -84,6 +84,6 @@ while guess != value:
         print('Your guess is too low, try again!')
 
 else:
-    print(f'You guessed it in {count} tries!')
+    print(f'You guessed it in {tentative_count} tries!')
 
 '''
