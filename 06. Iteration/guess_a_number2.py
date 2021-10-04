@@ -54,7 +54,7 @@ else:
     # a mensagem abaixo será posta na tela.
     print(f'\nVocê adivinhou o número em {attempt_count} tentativas.')
 
-    
+
 # Jogo da adivinhação fazendo o que se pede, veremos abaixo o que a Microsoft
 # sugere como solução para os objetivos propostos.
 
