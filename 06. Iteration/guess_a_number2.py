@@ -40,13 +40,13 @@ while user_choice != randomic_value:
     if user_choice > randomic_value:
 
         # irá impimir esta mensagem na tela.
-        print('Sua adivinhação é muito alta, tente novamente.')
+        print('Está quase lá. Tente novamente!')
 
     # se a escolha do usuário for menor que o número sorteado
     if user_choice < randomic_value:
 
         # irá imprimir esta mensagem na tela.
-        print('Sua adivinhação é muito baixa, tente novamente!')
+        print('Vish. Você está longe. Tente novamente!')
 
 # se o usuário adivinhar o número que foi armazenado em (randomic_value) na jogatina
 else:
