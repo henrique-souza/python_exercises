@@ -7,7 +7,7 @@ print('Programa X')
 código
 
 '''
-'''
+
 print('Programa 01')
 
 count = 0
@@ -30,13 +30,14 @@ while count <= 20:
     # imprime 'count' a partir de 3, somando + 3 
     print(count)
 print('\n')
-'''
 
 print('Programa 03')
-
+# adicionamos o numero 20 a variavel
 count = 20
 
 while count >= 0:
+    # count diminui -3 a cada número menor ou igual a 0
+    # partindo de 20
     count -= 3
     print(count)
 print('\n')
