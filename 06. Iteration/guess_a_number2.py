@@ -39,6 +39,7 @@ else:
     print(f'\nVocê adivinhou o número em {count} tentativas.')
 # Jogo da adivinhação fazendo o que se pede, veremos abaixo o que a Microsoft
 # sugere como solução para os objetivos propostos.
+
 '''
 Solução - Microsoft
 
