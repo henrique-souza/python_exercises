@@ -13,7 +13,10 @@ count = 0
 
 print('Jogo de adivinhação!\n\nAdivinhe um número entre 1 e 10')
 
+# enquanto a escolha do usuário (choice) for diferente do número sorteado (numbers)
+# o laço while: será chamado
 while choice != numbers:
+
     print('\n')
     # o comando faz a contagem de tentativas do usuário
     count += 1
@@ -35,16 +38,23 @@ while choice != numbers:
 
     # se a escolha do usuário for maior que o número sorteado
     if choice > numbers:
+
         # irá impimir esta mensagem na tela.
         print('Sua adivinhação é muito alta, tente novamente.')
+
     # se a escolha do usuário for menor que o número sorteado
     if choice < numbers:
-        #irá imprimir esta mensagem na tela.
+
+        # irá imprimir esta mensagem na tela.
         print('Sua adivinhação é muito baixa, tente novamente!')
-# se o usuário adivinhar o número
-else: 
+
+# se o usuário adivinhar o número que foi armazenado em (numbers) na jogatina
+else:
+
     # a mensagem abaixo será posta na tela.
     print(f'\nVocê adivinhou o número em {count} tentativas.')
+
+    
 # Jogo da adivinhação fazendo o que se pede, veremos abaixo o que a Microsoft
 # sugere como solução para os objetivos propostos.
 
