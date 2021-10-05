@@ -24,7 +24,7 @@ print('Imprimindo a lista "sundry"')
 sundry = ['Henrique', 3.14, 7, False]
 
 print(sundry)
-#print(type(sundry))
+#print(type(sundry))   
 print('\n')
 
 print('Programa 03')
