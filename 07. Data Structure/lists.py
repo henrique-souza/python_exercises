@@ -12,6 +12,7 @@ print('Programa 01')
 # uma lista
 print('Imprimindo a lista "colors"')
 colors = ['vermelho', 'verde', 'azul', 'amarelo', 'laranja', 'roxo', 'marrom']
+colors2 = ['vermelho', 'verde', 'azul']
 
 print(colors)
 #print(type(colors))
@@ -36,4 +37,16 @@ print(f'Ultimo item da lista "sundry": {sundry[-1]}')
 print(f'\nPenultimo item da lista "colors" {colors[-2]}')
 print(f'Penultimo item da lista "sundry" {sundry[-2]}')
 print('\n')
-# parei na Etapa 4, unidade 2
+
+print('Programa 04')
+# imprimindo um índice inexistente na lista de dados
+print('\nPara rodar o 04, remova o comentário da linha 46.')
+# Irá imprimir o erro 'IndexError: list index out of range', pois "colors2" vai de 0 a 2
+# na numeração de seus índices.
+#print(colors2[3]) 
+print('\n')
+
+print('Programa 05')
+
+
+print('\n')
