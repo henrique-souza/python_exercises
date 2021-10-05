@@ -37,4 +37,3 @@ print(f'\nPenultimo item da lista "colors" {colors[-2]}')
 print(f'Penultimo item da lista "sundry" {sundry[-2]}')
 print('\n')
 # parei na Etapa 3, unidade 2
-
