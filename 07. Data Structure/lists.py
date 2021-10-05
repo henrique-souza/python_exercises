@@ -15,7 +15,7 @@ colors = ['vermelho', 'verde', 'azul', 'amarelo', 'laranja', 'roxo', 'marrom']
 colors2 = ['vermelho', 'verde', 'azul']
 
 print(colors)
-#print(type(colors))
+# print(type(colors))
 print('\n')
 
 print('Programa 02')
@@ -25,13 +25,15 @@ print('Imprimindo a lista "sundry"')
 sundry = ['Henrique', 3.14, 7, False]
 
 print(sundry)
-#print(type(sundry))   
+# print(type(sundry))
 print('\n')
 
 print('Programa 03')
 
-print(f'Toda lista começa com 0. Portanto o segundo item de "colors", que seria o numero 1, é: {colors[1]}')
-print(f'\nSendo assim, para buscar meu nome, utilizarei o local 0 na lista: {sundry[0]}')
+print(
+    f'Toda lista começa com 0. Portanto o segundo item de "colors", que seria o numero 1, é: {colors[1]}')
+print(
+    f'\nSendo assim, para buscar meu nome, utilizarei o local 0 na lista: {sundry[0]}')
 print(f'\nUltimo item da lista "colors": {colors[-1]}')
 print(f'Ultimo item da lista "sundry": {sundry[-1]}')
 print(f'\nPenultimo item da lista "colors" {colors[-2]}')
@@ -43,10 +45,11 @@ print('Programa 04')
 print('\nPara rodar o 04, remova o comentário da linha 46.')
 # Irá imprimir o erro 'IndexError: list index out of range', pois "colors2" vai de 0 a 2
 # na numeração de seus índices.
-#print(colors2[3]) 
+# print(colors2[3])
 print('\n')
 
 print('Programa 05')
 
 
 print('\n')
+#parei na Etapa 4
