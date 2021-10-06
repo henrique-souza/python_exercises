@@ -27,7 +27,7 @@ sundry = ['Henrique', 3.14, 7, False]
 print(sundry)
 # print(type(sundry))
 print('\n')
-
+'''
 print('Programa 03')
 
 print(
@@ -47,9 +47,21 @@ print('\nPara rodar o 04, remova o comentário da linha 46.')
 # na numeração de seus índices.
 # print(colors2[3])
 print('\n')
+'''
 
 print('Programa 05')
 
+print('\nImprime uma fatia, começando no índice 2 e excluindo o índice 5: ')
+print(colors[2:5])
+print(type(colors[2:5]))
 
+print('\nImprime uma fatia, começando no índice 0 até o índice 3:')
+print(colors[:3])
+
+print('\nImprime uma fatia, começando pelo índice 4 e indo até o fim da lista:')
+print(colors[4:])
+
+print('\nImprime uma fatia, da 4th até o final da lista (mas não o último item):')
+print(colors[-4:-1])
 print('\n')
 #parei na Etapa 4
