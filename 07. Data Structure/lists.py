@@ -64,4 +64,7 @@ print(colors[4:])
 print('\nImprime uma fatia, da 4th até o final da lista (mas não o último item):')
 print(colors[-4:-1])
 print('\n')
-#parei na Etapa 4
+
+print('Programa 06')
+
+
