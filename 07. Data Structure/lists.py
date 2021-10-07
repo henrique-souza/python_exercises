@@ -27,7 +27,7 @@ sundry = ['Henrique', 3.14, 7, False]
 print(sundry)
 # print(type(sundry))
 print('\n')
-'''
+
 print('Programa 03')
 
 print(
@@ -42,12 +42,12 @@ print('\n')
 
 print('Programa 04')
 # imprimindo um índice inexistente na lista de dados
-print('\nPara rodar o 04, remova o comentário da linha 46.')
+print('\nPara rodar o 04, remova o comentário da linha 46 e comente esta linha.')
 # Irá imprimir o erro 'IndexError: list index out of range', pois "colors2" vai de 0 a 2
 # na numeração de seus índices.
 # print(colors2[3])
 print('\n')
-'''
+
 
 print('Programa 05')
 
