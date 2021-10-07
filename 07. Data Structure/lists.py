@@ -67,4 +67,12 @@ print('\n')
 
 print('Programa 06')
 
+# esta função reverte a ordem da lista
+colors.reverse()
+print(colors)
+
+# esta função classifica a lista em ordem alfabética
+colors.sort()
+print(colors)
+print('\n')
 
