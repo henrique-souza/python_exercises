@@ -74,4 +74,3 @@ second_value = round(9.87654, 3)
 # fazendo sair com 3 casas decimais
 print(second_value)
 print('\n')
-

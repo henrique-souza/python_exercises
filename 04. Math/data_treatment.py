@@ -26,7 +26,7 @@ segundo_valor = input('Segundo numero: ')
 if primeiro_valor.isnumeric() == False or segundo_valor.isnumeric() == False:
     print('O valor digitado não é um número.')
     exit()
-    
+
 primeiro_valor = int(primeiro_valor)
 segundo_valor = int(segundo_valor)
 

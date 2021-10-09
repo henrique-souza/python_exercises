@@ -33,8 +33,8 @@ print(fourth_value, fifth_value, sixth_value, sep='#', end='!\n')
 # Fifth challenge - use only a single print() function.  Create tabs and new lines using f-strings.
 
 print(f'{fourth_value:^22}\n'
-f'{fifth_value:^22}\n'
-f'{sixth_value:^22}')
+      f'{fifth_value:^22}\n'
+      f'{sixth_value:^22}')
 
 
 ''' Resultados que o código acima imprime: 

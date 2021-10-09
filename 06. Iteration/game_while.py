@@ -11,15 +11,15 @@ print('O primeiro que sortear um 5 vence!!')
 while roll != 5:
     print('\n')
     name = input('Digite seu nome ou \'q\' para sair do jogo:  ')
-    
-    #se a entrada do usuario pra 'name' for um Enter ou espaço em branco
+
+    # se a entrada do usuario pra 'name' for um Enter ou espaço em branco
     if name.strip() == '':
         # o programa continuará solicitando entrada de um nome
         continue
-    
+
     if name.strip() == 'q':
         break
-    
+
     # se a variavel 'count' começa com 0, a partir deste print começara com 1
     # contando assim a quantidade de sorteios corretamente
     print(f'Sorteio {count + 1} - {name}')
