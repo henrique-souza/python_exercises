@@ -75,3 +75,4 @@ print(colors)
 colors.sort()
 print(colors)
 print('\n')
+# parei na etapa 6
