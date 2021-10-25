@@ -69,10 +69,29 @@ print('Programa 06')
 
 # esta função reverte a ordem da lista
 colors.reverse()
-print(colors)
+print('Invertendo a ordem da lista: \n', colors, '\n')
 
 # esta função classifica a lista em ordem alfabética
 colors.sort()
-print(colors)
+print('Classificando a lista em ordem alfabética: \n', colors)
 print('\n')
+
 # parei na etapa 6
+
+print('Programa 07')
+
+# a função pop(0) recolhe a cor cadastrada no inicio da lista de cores
+color = colors.pop(0)
+print('Recolhendo uma cor do início da lista: ', color, '\n')
+print('Lista atual, sem a cor recolhida no começo: ')
+print(colors)
+
+# a função pop(-1) recolhe a cor cadastrada no fim da lista de cores
+color = colors.pop(-1)
+print('Recolhendo uma cor do fim da lista: ', color, '\n')
+print('Lista atual, sem a cor recolhida no fim: ')
+print(colors)
+print('Lista atual, sem as cores recolhidas no começo e fim: ')
+print(colors)
+# iremos tratar a lista como uma fila neste momento
+print('\n')
