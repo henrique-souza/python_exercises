@@ -12,7 +12,7 @@ print('Programa 01')
 # uma lista
 print('Imprimindo a lista "colors"')
 colors = ['vermelho', 'verde', 'azul', 'amarelo', 'laranja', 'roxo', 'marrom']
-colors2 = ['vermelho', 'verde', 'azul']
+colors2 = ['lilás', 'cinza', 'rosa']
 
 print(colors)
 print(type(colors))
@@ -33,7 +33,7 @@ print('Programa 03')
 print(
     f'Toda lista começa com 0. Portanto o segundo item de "colors", que seria o numero 1, é: {colors[1]}')
 print(
-    f'\nSendo assim, para buscar meu nome, utilizarei o local 0 na lista: {sundry[0]}')
+    f'\nSendo assim, para buscar meu nome em "sundry", utilizarei o local 0 na lista: {sundry[0]}')
 print(f'\nUltimo item da lista "colors": {colors[-1]}')
 print(f'Ultimo item da lista "sundry": {sundry[-1]}')
 print(f'\nPenultimo item da lista "colors" {colors[-2]}')
@@ -106,10 +106,10 @@ print('Programa 08')
 
 print(colors)
 # adicionando preto e branco
-colors.append('preto') #adicionado ao fim da lista
-colors.append('branco') # adicionado ao fim da lista
+colors.append('preto')  # adicionado ao fim da lista
+colors.append('branco')  # adicionado ao fim da lista
 
-#removendo amarelo e laranja
+# removendo amarelo e laranja
 colors.remove('amarelo')
 colors.remove('laranja')
 
@@ -117,8 +117,28 @@ print(colors)
 # simbora gerar um erro? Caso queira ver
 # remova o comentario da linha 121
 
-#irá imprimir um 'ValueError'
-# colors.remove('qualquer coisa') 
+# irá imprimir um 'ValueError'
+# colors.remove('qualquer coisa')
 print('\n')
 
+print('Programa 09')
+# neste programa iremos unir as listas armazenadas até aqui
+# gostaria mundo de unir a lista 'sundry', mas como ela usa
+# de más práticas, não iremos puxa-la.
 
+#vamos imprimir colors atual, pra fins de comparação
+print(colors)
+
+# nova lista 'colors3'
+colors3 = ['limão', 'beje']
+# unindo 'colors' com 'colors2'
+colors.extend(colors2)
+# unindo 'colors' e 'colors2' com 'colors3'
+colors.extend(colors3)
+
+# eu tive vontade de classificar em ordem alfabética a partir daqui, foi mal. Pra ficar bonito.
+colors.sort()
+print(colors)
+
+print('\n')
+#parei na etapa 9
