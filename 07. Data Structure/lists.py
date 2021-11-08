@@ -76,9 +76,10 @@ colors.sort()
 print('Classificando a lista em ordem alfabética: \n', colors)
 print('\n')
 
-# parei na etapa 6
-
 print('Programa 07')
+
+# iremos tratar a lista como uma fila neste momento, pois a função 'pop()' 
+# faz com que seja recolhido um dado naquela determinada coordenada
 
 # a função pop(0) recolhe a cor cadastrada no inicio da lista de cores
 color = colors.pop(0)
@@ -86,12 +87,13 @@ print('Recolhendo uma cor do início da lista: ', color, '\n')
 print('Lista atual, sem a cor recolhida no começo: ')
 print(colors)
 
-# a função pop(-1) recolhe a cor cadastrada no fim da lista de cores
+# a função pop(-1) recolhe a cor cadastrada no fim da lista (fila) de cores
 color = colors.pop(-1)
-print('Recolhendo uma cor do fim da lista: ', color, '\n')
-print('Lista atual, sem a cor recolhida no fim: ')
+print('Recolhendo uma cor do fim da fila: ', color, '\n')
+print('Fila atual, sem a cor recolhida no fim: ')
 print(colors)
-print('Lista atual, sem as cores recolhidas no começo e fim: ')
+
+# nesta linha iremos imprimir a lista (fila) de cores armazenadas após a função 'pop()'
+print('Fila atual, sem as cores recolhidas no começo e fim: ')
 print(colors)
-# iremos tratar a lista como uma fila neste momento
 print('\n')
