@@ -25,7 +25,7 @@ print('Imprimindo a lista "sundry"')
 sundry = ['Henrique', 3.14, 7, False]
 
 print(sundry)
-# print(type(sundry))
+print(type(sundry))
 print('\n')
 
 print('Programa 03')
@@ -65,7 +65,7 @@ print('\nImprime uma fatia, da 4th até o final da lista (mas não o último ite
 print(colors[-4:-1])
 print('\n')
 
-""" print('Programa 06')
+print('Programa 06')
 
 # esta função reverte a ordem da lista
 colors.reverse()
@@ -75,8 +75,8 @@ print('Invertendo a ordem da lista: \n', colors, '\n')
 colors.sort()
 print('Classificando a lista em ordem alfabética: \n', colors)
 print('\n')
- """
-""" print('Programa 07')
+
+print('Programa 07')
 
 # iremos tratar a lista como uma fila neste momento, pois a função 'pop()'
 # faz com que seja recolhido um dado naquela determinada coordenada
@@ -96,7 +96,7 @@ print(colors)
 # nesta linha iremos imprimir a lista (fila) de cores armazenadas após a função 'pop()'
 print('Fila atual, sem as cores recolhidas no começo e fim: ')
 print(colors)
-print('\n') """
+print('\n')
 
 print('Programa 08')
 
