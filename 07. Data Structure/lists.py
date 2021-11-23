@@ -76,7 +76,7 @@ colors.sort()
 print('Classificando a lista em ordem alfabética: \n', colors)
 print('\n')
 
-print('Programa 07')
+""" print('Programa 07')
 
 # iremos tratar a lista como uma fila neste momento, pois a função 'pop()'
 # faz com que seja recolhido um dado naquela determinada coordenada
@@ -96,7 +96,7 @@ print(colors)
 # nesta linha iremos imprimir a lista (fila) de cores armazenadas após a função 'pop()'
 print('Fila atual, sem as cores recolhidas no começo e fim: ')
 print(colors)
-print('\n')
+print('\n') """
 
 print('Programa 08')
 
@@ -105,6 +105,7 @@ print('Programa 08')
 # caso queira o programa sem a classificação em ordem alfabética, comente o programa 06
 
 print(colors)
+print('\nCaso você queira ver, do Programa 08 em diante, funcionando, comente todo o programa 07 acima.\n')
 # adicionando preto e branco
 colors.append('preto')  # adicionado ao fim da lista
 colors.append('branco')  # adicionado ao fim da lista
