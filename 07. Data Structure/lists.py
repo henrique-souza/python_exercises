@@ -142,4 +142,14 @@ colors.sort()
 print(colors)
 
 print('\n')
-#parei na etapa 9
+
+print('Programa 10')
+
+print(colors)
+
+# deletando todos itens armazenados na lista
+colors.clear()
+
+print(colors)
+
+print('\n')
