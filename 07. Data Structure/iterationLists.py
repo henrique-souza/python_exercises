@@ -22,3 +22,15 @@ for cidade in cidades:
     print(cidade)
 
 print('\n')
+
+print('Programa 03\n')
+
+numbers = [42, 77, 16, 101, 23, 8, 4, 15, 55]
+numbers.sort()
+
+for number in numbers:
+    if number > 42:
+        break
+    print(number)
+
+print('\n')
