@@ -1,3 +1,6 @@
+import random
+import imp
+
 print('Programa 01\n')
 
 numbers = [1, 3, 5]
@@ -32,5 +35,24 @@ for number in numbers:
     if number > 42:
         break
     print(number)
+
+print('\n')
+
+print('Programa 04\n')
+
+numbers = []
+
+while len(numbers) < 5:
+    numbers.append(random.randint(1, 100))
+
+for number in numbers:
+    print(number)
+    if number >= 90:
+        print('Achei um número maior que 90')
+        break
+else:
+    print('Não achei um número maior que 90.')
+
+print('Finalizado.')
 
 print('\n')
