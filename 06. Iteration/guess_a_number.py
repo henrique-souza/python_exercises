@@ -19,13 +19,14 @@ while choice != numbers:
     print(f'Jogada número: {count}')
 
     choice = input(
-        'Digite um numero entre 1 a 5 ou \'sair\' para sair do jogo: ')
+        'Digite um numero entre 1 a 5: ')
 
     # este laço faz com que, mesmo que o usuário digite Enter, nomes ou símbolos
     # o jogo continua sendo executado, sem problemas.
     if choice.isnumeric():
 
         choice = int(choice)
+
 else:
     print(f'\nVocê adivinhou em o número {count} tentativas.')
 
