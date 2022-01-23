@@ -1,5 +1,4 @@
 import random
-import imp
 
 print('Programa 01\n')
 
