@@ -1,3 +1,4 @@
+from ast import For
 import random
 
 print('Programa 01\n')
