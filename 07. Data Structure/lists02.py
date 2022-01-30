@@ -65,7 +65,9 @@ for valor in valores:
     if isinstance(valor, str) == False:
         continue
     equipamento.append(valor)
-
+# Se o print abaixo estivesse indentado no laço for
+# ele imprimirá os dados str um por um, até o resultado
+# final.
 print(equipamento)
 
 print('\n')
