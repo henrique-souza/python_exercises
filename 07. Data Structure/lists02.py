@@ -58,7 +58,14 @@ print('\n')
 
 print('Programa 05\n')
 
-# programa que irá filtrar... 
-# continuar mais tarde - Etapa 6
+valores = ["notebook", 7, "telefone", 3, "dslr", 5]
+equipamento = []
+
+for valor in valores:
+    if isinstance(valor, str) == False:
+        continue
+    equipamento.append(valor)
+
+print(equipamento)
 
 print('\n')
