@@ -61,13 +61,20 @@ print('Programa 05\n')
 valores = ["notebook", 7, "telefone", 3, "dslr", 5]
 equipamento = []
 
+# A lista tem valores int, mas queremos 
+# imprimir apenas as strings
+
 for valor in valores:
     if isinstance(valor, str) == False:
         continue
     equipamento.append(valor)
 # Se o print abaixo estivesse indentado no laço for
-# ele imprimirá os dados str um por um, até o resultado
-# final.
+# ele imprimirá os dados str um por um, até o 
+# resultado final.
 print(equipamento)
+
+print('\n')
+
+print('Programa 06\n')
 
 print('\n')
