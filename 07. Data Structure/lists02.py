@@ -77,4 +77,6 @@ print('\n')
 
 print('Programa 06\n')
 
+# parei na etapa 7
+
 print('\n')
