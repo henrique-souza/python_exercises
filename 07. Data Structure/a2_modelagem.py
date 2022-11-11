@@ -1,9 +1,4 @@
 """Recebe uma linha de números aleatórios e retorna um gráfico"""
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import collections
-
 # Prob de Menina = Prob de Menino = 1/2 ou 0,5 - Menina é 0 e Menino é 1
 # meninas <0.5
 # meninos >=0.5
@@ -12,42 +7,74 @@ import collections
 # n100          recebe valores das linhas 0 a 99
 # n1000         recebe valores das linhas 0 a 999
 # n10000        recebe valores das linhas 0 a 9999
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
 pd.options.display.float_format = '{:,.1f}'.format
 
 coluna = [0]
 linha = range(10000)
-dados = np.round(np.random.random(10000), 1) # randomiza de 0 a 1
+dados = np.round(np.random.random(10000), 1)  # randomiza de 0 a 1
 tabela = pd.DataFrame(data=dados, index=linha, columns=coluna)
 
-# retorna True se os valores contidos no "[indice 0 a 9, coluna]" forem maiores que 0,5
-n10_meninas = 0.5 < tabela.iloc[0:9, 0]
+# retorna True se os valores contidos no "[indice 0 a 10, coluna]" forem maiores que 0,5
+n10_meninas = 0.5 < tabela.iloc[0:10, 0]
 
-# retorna True se os valores contidos no "[indice 0 a 9, coluna]" forem menores ou iguais a 0,5
-n10_meninos = 0.5 >= tabela.iloc[0:9, 0]
+# retorna True se os valores contidos no "[indice 0 a 10, coluna]" forem menores ou iguais a 0,5
+n10_meninos = 0.5 >= tabela.iloc[0:10, 0]
 
-# retorna True se os valores contidos no "[indice 0 a 99, coluna]" forem maiores que 0,5
+# retorna True se os valores contidos no "[indice 0 a 100, coluna]" forem maiores que 0,5
+n100_meninas = 0.5 < tabela.iloc[0:100, 0]
 
-print(f'{sum(n10_meninas)} MENINAS foram localizadas num range de 10 registros.')
-print(f'{sum(n10_meninos)} MENINOS foram localizadas num range de 10 registros.')
+# retorna True se os valores contidos no "[indice 0 a 100, coluna]" forem menores ou iguais a 0,5
+n100_meninos = 0.5 >= tabela.iloc[0:100, 0]
 
-# print(tabela.values[9])
-# print(tabela.loc[0:9, 0].count(0,5))
+# retorna True se os valores contidos no "[indice 0 a 1000, coluna]" forem maiores que 0,5
+n1000_meninas = 0.5 < tabela.iloc[0:1000, 0]
 
-# print(tabela.loc[tabela['Species'] == 'Iris-setosa'].count())
+# retorna True se os valores contidos no "[indice 0 a 1000, coluna]" forem menores ou iguais a 0,5
+n1000_meninos = 0.5 >= tabela.iloc[0:1000, 0]
 
-# print(tabela.iloc[0:9])
+# retorna True se os valores contidos no "[indice 0 a 10000, coluna]" forem maiores que 0,5
+n10000_meninas = 0.5 < tabela.iloc[0:10000, 0]
 
-# # creating the dataset
-# data = {'%10': 20, '%100': 15, '%1000': 30, '%10000': 35}
-# courses = list(data.keys())
-# values = list(data.values())
-#
-# fig = plt.figure(figsize=(10, 5))
-#
-# # creating the bar plot
-# plt.bar(courses, values, color='blue', width=0.4)
-#
-# plt.xlabel("aaaaaaaaa")
-# plt.ylabel("bbbbbbbbbbbb")
-# plt.title("Probabilidade de nascimento de Meninos ou Meninas")
-# plt.show()
+# retorna True se os valores contidos no "[indice 0 a 10000, coluna]" forem menores ou iguais a 0,5
+n10000_meninos = 0.5 >= tabela.iloc[0:10000, 0]
+
+print(f'Existem {sum(n10_meninas)} MENINAS no range de {n10_meninas.count()} registros.')
+print(f'Existem {sum(n10_meninos)} MENINOS no range de {n10_meninos.count()} registros.')
+print('\n')
+print(f'Existem {sum(n100_meninas)} MENINAS no range de {n100_meninas.count()} registros.')
+print(f'Existem {sum(n100_meninos)} MENINOS no range de {n100_meninos.count()} registros.')
+print('\n')
+print(f'Existem {sum(n1000_meninas)} MENINAS no range de {n1000_meninas.count()} registros.')
+print(f'Existem {sum(n1000_meninos)} MENINOS no range de {n1000_meninos.count()} registros.')
+print('\n')
+print(f'Existem {sum(n10000_meninas)} MENINAS no range de {n10000_meninas.count()} registros.')
+print(f'Existem {sum(n10000_meninos)} MENINOS no range de {n10000_meninos.count()} registros.')
+
+fn10_meninas = sum((n10_meninas * 100) / n10_meninas.count())
+fn10_meninos = sum((n10_meninos * 100) / n10_meninos.count())
+fn100_meninas = sum((n100_meninas * 100) / n100_meninas.count())
+fn100_meninos = sum((n100_meninos * 100) / n100_meninos.count())
+fn1000_meninas = sum((n1000_meninas * 100) / n1000_meninas.count())
+fn1000_meninos = sum((n1000_meninos * 100) / n1000_meninos.count())
+fn10000_meninas = sum((n10000_meninas * 100) / n10000_meninas.count())
+fn10000_meninos = sum((n10000_meninos * 100) / n10000_meninos.count())
+
+X = ['%10', '%100', '%1000', '%10000']
+Ygirls = [fn10_meninas.round(), fn100_meninas, fn1000_meninas, fn10000_meninas]
+Zboys = [fn10_meninos, fn100_meninos, fn1000_meninos, fn10000_meninos]
+
+X_axis = np.arange(len(X))
+
+plt.bar(X_axis - 0.2, Ygirls, 0.4, label='Meninas')
+plt.bar(X_axis + 0.2, Zboys, 0.4, label='Meninos')
+
+plt.xticks(X_axis, X)
+plt.xlabel("Parcela calculada")
+plt.ylabel("Porcentagem de Meninos ou Meninas")
+plt.title("Simulação do nascimento de 10 mil meninas ou meninos")
+plt.legend()
+plt.show()
