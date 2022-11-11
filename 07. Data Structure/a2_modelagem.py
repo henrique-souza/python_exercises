@@ -5,10 +5,9 @@ import numpy as np
 import pandas as pd
 
 coluna = range(1)
-linha = list(10000)
+linha = range(10001)
 dados = np.random.random(10001)
 tabela = pd.DataFrame(data=dados, index=linha, columns=coluna)
-
 
 
 # creating the dataset
@@ -27,6 +26,3 @@ plt.xlabel("aaaaaaaaa")
 plt.ylabel("bbbbbbbbbbbb")
 plt.title("Probabilidade de nascimento de Meninos ou Meninas")
 plt.show()
-
-# vou ver se faço um método que retorna varios dados aleatorios como queremos
-# e ai vai gravando, não gravando apenas um...
