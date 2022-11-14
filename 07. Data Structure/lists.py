@@ -2,11 +2,11 @@
 # comentários de apóstofos simples ''' e ''' ENTRE um programa e outro.
 # Exemplo abaixo:
 
-'''
+"""
 print('Programa X')
 código
 
-'''
+"""
 
 print('Programa 01')
 # uma lista
@@ -31,7 +31,8 @@ print('\n')
 print('Programa 03')
 
 print(
-    f'Toda lista começa com 0. Portanto o segundo item de "colors", que seria o numero 1, é: {colors[1]}')
+    f'Toda lista começa com 0. Portanto o segundo '
+    f'item de "colors", que seria o numero 1, é: {colors[1]}')
 print(
     f'\nSendo assim, para buscar meu nome em "sundry", utilizarei o local 0 na lista: {sundry[0]}')
 print(f'\nUltimo item da lista "colors": {colors[-1]}')
@@ -47,7 +48,6 @@ print('\nPara rodar o 04, remova o comentário da linha 48 e comente esta linha.
 # na numeração de seus índices.
 # print(colors2[3])
 print('\n')
-
 
 print('Programa 05')
 
@@ -76,27 +76,29 @@ colors.sort()
 print('Classificando a lista em ordem alfabética: \n', colors)
 print('\n')
 
-""" print('Programa 07')
 
-# iremos tratar a lista como uma fila neste momento, pois a função 'pop()'
-# faz com que seja recolhido um dado naquela determinada coordenada
+# print('Programa 07')
+#
+# # iremos tratar a lista como uma fila neste momento, pois a função 'pop()'
+# # faz com que seja recolhido um dado naquela determinada coordenada
+#
+# # a função pop(0) recolhe a cor cadastrada no inicio da lista de cores
+# color = colors.pop(0)
+# print('Recolhendo uma cor do início da lista: ', color, '\n')
+# print('Lista atual, sem a cor recolhida no começo: ')
+# print(colors)
+#
+# # a função pop(-1) recolhe a cor cadastrada no fim da lista (fila) de cores
+# color = colors.pop(-1)
+# print('Recolhendo uma cor do fim da fila: ', color, '\n')
+# print('Fila atual, sem a cor recolhida no fim: ')
+# print(colors)
+#
+# # nesta linha iremos imprimir a lista (fila) de cores armazenadas após a função 'pop()'
+# print('Fila atual, sem as cores recolhidas no começo e fim: ')
+# print(colors)
+# print('\n')
 
-# a função pop(0) recolhe a cor cadastrada no inicio da lista de cores
-color = colors.pop(0)
-print('Recolhendo uma cor do início da lista: ', color, '\n')
-print('Lista atual, sem a cor recolhida no começo: ')
-print(colors)
-
-# a função pop(-1) recolhe a cor cadastrada no fim da lista (fila) de cores
-color = colors.pop(-1)
-print('Recolhendo uma cor do fim da fila: ', color, '\n')
-print('Fila atual, sem a cor recolhida no fim: ')
-print(colors)
-
-# nesta linha iremos imprimir a lista (fila) de cores armazenadas após a função 'pop()'
-print('Fila atual, sem as cores recolhidas no começo e fim: ')
-print(colors)
-print('\n') """
 
 print('Programa 08')
 
@@ -105,7 +107,8 @@ print('Programa 08')
 # caso queira o programa sem a classificação em ordem alfabética, comente o programa 06
 
 print(colors)
-print('\nCaso você queira ver, do Programa 08 em diante, funcionando, comente todo o programa 07 acima.\n')
+print('\nCaso você queira ver, do Programa 08 em diante, '
+      'funcionando, comente todo o programa 07 acima.\n')
 # adicionando preto e branco
 colors.append('preto')  # adicionado ao fim da lista
 colors.append('branco')  # adicionado ao fim da lista
@@ -127,7 +130,7 @@ print('Programa 09')
 # gostaria mundo de unir a lista 'sundry', mas como ela usa
 # de más práticas, não iremos puxa-la.
 
-#vamos imprimir colors atual, pra fins de comparação
+# vamos imprimir colors atual, pra fins de comparação
 print(colors)
 
 # nova lista 'colors3'

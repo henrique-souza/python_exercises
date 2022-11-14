@@ -1,4 +1,4 @@
-from ast import For
+""" Exercícios da Microsoft """
 import random
 
 print('Programa 01\n')
@@ -66,7 +66,7 @@ equipamento = []
 # imprimir apenas as strings
 
 for valor in valores:
-    if isinstance(valor, str) == False:
+    if not isinstance(valor, str):
         continue
     equipamento.append(valor)
 # Se o print abaixo estivesse indentado no laço for
