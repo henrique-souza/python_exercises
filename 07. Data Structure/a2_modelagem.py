@@ -11,7 +11,7 @@ dados = np.round(np.random.random(10000), 1)  # cada linha recebe dados randomiz
 tabela = pd.DataFrame(data=dados, index=linha, columns=coluna)  # confecção da tabela
 
 # retorna True se os valores contidos no "[indice 0 a 10, coluna]" forem maiores que 0,5
-n10_meninas = (0.5 < tabela.iloc[0:10, 0])
+n10_meninas = 0.5 < tabela.iloc[0:10, 0]
 
 # retorna True se os valores contidos no "[indice 0 a 10, coluna]" forem menores ou iguais a 0,5
 n10_meninos = 0.5 >= tabela.iloc[0:10, 0]
