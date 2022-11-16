@@ -18,7 +18,7 @@ n10_meninas = 7 <= tabela.iloc[0:10, 0]
 n10_meninos = 8 >= tabela.iloc[0:10, 0]
 
 # retorna True se os valores contidos no "[indice 0 a 100, coluna]" forem menores ou iguais a 7
-n100_meninas = 7 <=  tabela.iloc[0:100, 0]
+n100_meninas = 7 <= tabela.iloc[0:100, 0]
 
 # retorna True se os valores contidos no "[indice 0 a 100, coluna]" forem maiores ou iguais a 8
 n100_meninos = 8 >= tabela.iloc[0:100, 0]
