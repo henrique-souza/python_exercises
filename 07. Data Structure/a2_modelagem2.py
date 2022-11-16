@@ -3,12 +3,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-# formata as saídas da tabela
-pd.options.display.float_format = '{:,.1f}'.format
-
 coluna = [0]
 linha = range(10000)
-dados = np.round(np.random.randint(1, 10, 10000), 1)  # randomiza entre 1 e 10
+dados = np.random.randint(1, 10, 10000)  # randomiza entre 1 e 10
 tabela = pd.DataFrame(data=dados, index=linha, columns=coluna)
 
 # nascer menina = 1, 2, 3, 4, 5, 6, 7
