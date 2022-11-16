@@ -1,26 +1,42 @@
-"""Recebe uma linha de números aleatórios entre (...) e retorna um gráfico"""
+"""Recebe uma linha de números aleatórios e retorna um gráfico"""
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
+# formata as saídas da tabela
 pd.options.display.float_format = '{:,.1f}'.format
 
-coluna = [0]  # apenas uma coluna
-linha = range(10000)  # 10.000 linhas
-dados = np.round(np.random.random(10000), 1)  # cada linha recebe dados randomizados entre...
-tabela = pd.DataFrame(data=dados, index=linha, columns=coluna)  # confecção da tabela
+coluna = [0]
+linha = range(10000)
+dados = np.round(np.random.randint(1, 10, 10000), 1)  # randomiza entre 1 e 10
+tabela = pd.DataFrame(data=dados, index=linha, columns=coluna)
 
-n10_meninas = 0.5 < tabela.iloc[0:10, 0]
-n10_meninos = 0.5 >= tabela.iloc[0:10, 0]
+# nascer menina = 1, 2, 3, 4, 5, 6, 7
+# nascer menino = 8, 9, 10
 
-n100_meninas = 0.5 < tabela.iloc[0:100, 0]
-n100_meninos = 0.5 >= tabela.iloc[0:100, 0]
+# retorna True se os valores contidos no "[indice 0 a 10, coluna]" forem menores ou iguais a 7
+n10_meninas = 7 <= tabela.iloc[0:10, 0]
 
-n1000_meninas = 0.5 < tabela.iloc[0:1000, 0]
-n1000_meninos = 0.5 >= tabela.iloc[0:1000, 0]
+# retorna True se os valores contidos no "[indice 0 a 10, coluna]" forem maiores ou iguais a 8
+n10_meninos = 8 >= tabela.iloc[0:10, 0]
 
-n10000_meninas = 0.5 < tabela.iloc[0:10000, 0]
-n10000_meninos = 0.5 >= tabela.iloc[0:10000, 0]
+# retorna True se os valores contidos no "[indice 0 a 100, coluna]" forem menores ou iguais a 7
+n100_meninas = 7 <=  tabela.iloc[0:100, 0]
+
+# retorna True se os valores contidos no "[indice 0 a 100, coluna]" forem maiores ou iguais a 8
+n100_meninos = 8 >= tabela.iloc[0:100, 0]
+
+# retorna True se os valores contidos no "[indice 0 a 1000, coluna]" forem menores ou iguais a 7
+n1000_meninas = 7 <= tabela.iloc[0:1000, 0]
+
+# retorna True se os valores contidos no "[indice 0 a 1000, coluna]" forem maiores ou iguais a 8
+n1000_meninos = 8 >= tabela.iloc[0:1000, 0]
+
+# retorna True se os valores contidos no "[indice 0 a 10000, coluna]" forem menores ou iguais a 7
+n10000_meninas = 7 <= tabela.iloc[0:10000, 0]
+
+# retorna True se os valores contidos no "[indice 0 a 10000, coluna]" forem maiores ou iguais a 8
+n10000_meninos = 8 >= tabela.iloc[0:10000, 0]
 
 print(f'Existem {sum(n10_meninas)} MENINAS no range de {n10_meninas.count()} registros. \n '
       f'Existem {sum(n10_meninos)} MENINOS no range de {n10_meninos.count()} registros. \n\n'
@@ -30,10 +46,6 @@ print(f'Existem {sum(n10_meninas)} MENINAS no range de {n10_meninas.count()} reg
       f'Existem {sum(n1000_meninos)} MENINOS no range de {n1000_meninos.count()} registros.\n\n'
       f'Existem {sum(n10000_meninas)} MENINAS no range de {n10000_meninas.count()} registros.\n'
       f'Existem {sum(n10000_meninos)} MENINOS no range de {n10000_meninos.count()} registros.')
-
-# as linhas abaixo somam de quantas(os) meninas(os)
-# existem no range determinado de valores,
-# multiplicando por 100 e dividindo pelo total de meninas(os) no range
 
 # 10%
 fn10_meninas = sum((n10_meninas * 100) / n10_meninas.count())
